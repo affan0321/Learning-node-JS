@@ -1,10 +1,15 @@
-const lib = require('./library');
+// const lib = require('./library');
 
-const Addition = lib.Add(2, 3)
-const Sub = lib.Subtract(20, 10);
+// const Addition = lib.Add(2, 3)
+// const Sub = lib.Subtract(20, 10);
 
-console.log(Addition);
-console.log(Sub);
-console.log(lib.num);
+// console.log(Addition);
+// console.log(Sub);
+// console.log(lib.num);
 
-console.log(lib.Car);
+// console.log(lib.Car);
+
+const fs = require("fs");
+fs.writeFileSync("helloTxt","Dummy Text");
+
+const exp = require("express");
